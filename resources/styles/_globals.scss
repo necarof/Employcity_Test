@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 320px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    color: var(--color-white);
+}
+
+a {
+    color: var(--color-white);
+    text-decoration: none;
+
+    &:visited {
+        color: var(--color-white);
+    }
+}
+
+.container {
+    margin: auto;
+    max-width: 1204px;
+    padding: 0 16px;
+
+    @media screen and (max-width: 768px) {
+        padding: 0 8px;
+    }
+}

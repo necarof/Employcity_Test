@@ -1,0 +1,23 @@
+{
+  "name": "clicklead_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necarof/CLICKLEAD_Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/necarof/CLICKLEAD_Test/issues"
+  },
+  "homepage": "https://github.com/necarof/CLICKLEAD_Test#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
