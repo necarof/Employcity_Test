@@ -27,3 +27,14 @@ a {
         padding: 0 8px;
     }
 }
+
+.btn {
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s;
+    font-size: 13px;
+    text-transform: uppercase;
+}

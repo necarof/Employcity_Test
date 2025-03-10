@@ -11,15 +11,115 @@
     <meta name="author" content="Nikita Mastepanov">
     <title>Employcity_Test</title>
     <link rel="stylesheet" href="/resources/styles/main.css">
-    <script src="/resources/scripts/main.js"></script>
+    <script src="/resources/scripts/main.js" defer="defer"></script>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <a href="#" class="header__logo">LoremIpsum<span>.Net</span></a>
+                <a href="#" class="header__logo">LoremIpsum.<span>Net</span></a>
+                <nav>
+                    <ul class="header__nav">
+                        <li class="header__nav-item header__nav-item_active"><a href="#">Бизнес</a></li>
+                        <li class="header__nav-item"><a href="#">О нас</a></li>
+                        <li class="header__nav-item"><a href="#">Цены</a></li>
+                        <li class="header__nav-item"><a href="#">Оформить заказ</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__wrapper">
+                <h1 class="hero__title"><span>Lorem ipsum</span> dolor sit <br> amet consectetur <span>adipiscing</span></h1>
+                <h2 class="hero__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus!</h2>
+                <ul class="hero__list">
+                    <li class="hero__list-item"> - Totam rem aperiam eaque ipsa</li>
+                    <li class="hero__list-item"> - Sit voluptatem accusantium doloremque laudantium</li>
+                    <li class="hero__list-item"> - Sed ut perspiciatis, unde omnis iste natus error</li>
+                </ul>
+                <div class="hero__inner">
+                    <button class="hero__btn-accent btn">заказать</button>
+                    <button class="hero__btn-regular btn">подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="order">
+        <div class="container">
+            <div class="order__wrapper">
+                <h2 class="order__title">Оформление <span>Заказа</span></h2>
+                <h3 class="order__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</h3>
+                <ul class="order__list">
+                    <li class="order__list-item">
+                        <div class="order__list-circle">
+                            <img src="/resources/icons/search.svg" alt="icon" class="order__list-icon">
+                        </div>
+                        <span class="order__list-text">
+                            Lorem ipsum dolor sit amet
+                        </span>
+                    </li>
+                    <li class="order__list-item">
+                        <div class="order__list-circle">
+                            <img src="/resources/icons/percent.svg" alt="icon" class="order__list-icon">
+                        </div>
+                        <span class="order__list-text">
+                            Сonsecteturadipiscing elit
+                        </span>
+                    </li>
+                    <li class="order__list-item">
+                        <div class="order__list-circle">
+                            <img src="/resources/icons/file.svg" alt="icon" class="order__list-icon">
+                        </div>
+                        <span class="order__list-text">
+                            Sed do eiusmod tempor
+                        </span>
+                    </li>
+                    <li class="order__list-item">
+                        <div class="order__list-circle">
+                            <img src="/resources/icons/message.svg" alt="icon" class="order__list-icon">
+                        </div>
+                        <span class="order__list-text">
+                            Esse cillum dolore eu fugiat
+                        </span>
+                    </li>
+                    <li class="order__list-item">
+                        <div class="order__list-circle">
+                            <img src="/resources/icons/money.svg" alt="icon" class="order__list-icon">
+                        </div>
+                        <span class="order__list-text">
+                            Excepteur sint occaecat cupidatat non proident
+                        </span>
+                    </li>
+                </ul>
+                <form action="#" class="order__form">
+                    <div class="order__form-wrapper">
+                        <select name="order_select" id="order_select">
+                            <option value="1">Выберите тип системы</option>
+                            <option value="2">Sed ut perspiciatis</option>
+                            <option value="3">Nemo enim ipsam</option>
+                            <option value="4">Et harum quidem</option>
+                            <option value="5">Temporibus autem</option>
+                            <option value="6">Itaque earum rerum</option>
+                        </select>
+                        <input class="" type="email" name="order_email" id="order_email" placeholder="Ваш e-mail">
+                        <input class="" type="text" name="order_name" id="order_name" placeholder="Ваше имя">
+                        <div class="order__form-range-wrapper">
+                            <div class="order__form-range-inner">
+                                <span class="order__form-range-text">Sed ut perspiciatis, unde omnis iste natus</span>
+                                <span class="order__form-range-value" id="order_range_value">75%</span>
+                            </div>
+                            <input type="range" name="order_range" min="0" max="100" value="75" id="order_range">
+                        </div>
+                        <input class="order__form-file" type="file" name="order_file" id="order_file" placeholder="Прикрепить файл">
+                    </div>
+                    <button class="order__form-btn btn" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
