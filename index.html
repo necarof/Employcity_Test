@@ -10,6 +10,7 @@
     >
     <meta name="author" content="Nikita Mastepanov">
     <title>Employcity_Test</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
     <link rel="stylesheet" href="/resources/styles/main.css">
     <script src="/resources/scripts/main.js" defer="defer"></script>
 </head>
@@ -98,29 +99,25 @@
                 <form action="#" class="order__form">
                     <div class="order__form-wrapper">
                         <div class="order__form-top">
-                            <div class="order__form-select-wrapper">
+                            <div class="order__form-select-wrapper" id="custom_select">
                                 <div class="order__form-select input">
                                     <span class="order__form-select-text">Выберите тип системы</span>
-                                    <div class="order__form-select-icons">
-                                        <img src="/resources/icons/arrow.svg" alt="arrow">
+                                    <div class="order__form-select-icon">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.9337 12.3485C14.9337 12.4199 14.898 12.5003 14.8444 12.5538L14.398 13.0003C14.3444 13.0538 14.2641 13.0895 14.1927 13.0895C14.1212 13.0895 14.0409 13.0538 13.9873 13.0003L10.4784 9.49132L6.96944 13.0003C6.91587 13.0538 6.83551 13.0895 6.76408 13.0895C6.68372 13.0895 6.6123 13.0538 6.55872 13.0003L6.1123 12.5538C6.05872 12.5003 6.02301 12.4199 6.02301 12.3485C6.02301 12.277 6.05872 12.1967 6.1123 12.1431L10.273 7.9824C10.3266 7.92882 10.4069 7.89311 10.4784 7.89311C10.5498 7.89311 10.6302 7.92882 10.6837 7.9824L14.8444 12.1431C14.898 12.1967 14.9337 12.277 14.9337 12.3485Z" fill="currentColor"/>
+                                        </svg>
                                     </div>
                                 </div>
                                 <ul class="order__form-select-options">
-                                    <li class="order__form-select-option">Sed ut perspiciatis</li>
+                                    <li class="order__form-select-option order__form-select-option_active">Sed ut perspiciatis</li>
                                     <li class="order__form-select-option">Nemo enim ipsam</li>
                                     <li class="order__form-select-option">Et harum quidem</li>
                                     <li class="order__form-select-option">Temporibus autem</li>
                                     <li class="order__form-select-option">Itaque earum rerum</li>
+                                    <li class="order__form-select-option">Et harum quidem</li>
+                                    <li class="order__form-select-option">Temporibus autem</li>
                                 </ul>
                             </div>
-                            <!-- <select class="input" name="order_select" id="order_select">
-                                <option value="1">Выберите тип системы</option>
-                                <option value="2">Sed ut perspiciatis</option>
-                                <option value="3">Nemo enim ipsam</option>
-                                <option value="4">Et harum quidem</option>
-                                <option value="5">Temporibus autem</option>
-                                <option value="6">Itaque earum rerum</option>
-                            </select> -->
                             <input class="input" type="email" name="order_email" id="order_email" placeholder="Ваш e-mail">
                             <input class="input" type="text" name="order_name" id="order_name" placeholder="Ваше имя">
                         </div>
