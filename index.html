@@ -97,29 +97,91 @@
                 </ul>
                 <form action="#" class="order__form">
                     <div class="order__form-wrapper">
-                        <select name="order_select" id="order_select">
-                            <option value="1">Выберите тип системы</option>
-                            <option value="2">Sed ut perspiciatis</option>
-                            <option value="3">Nemo enim ipsam</option>
-                            <option value="4">Et harum quidem</option>
-                            <option value="5">Temporibus autem</option>
-                            <option value="6">Itaque earum rerum</option>
-                        </select>
-                        <input class="" type="email" name="order_email" id="order_email" placeholder="Ваш e-mail">
-                        <input class="" type="text" name="order_name" id="order_name" placeholder="Ваше имя">
-                        <div class="order__form-range-wrapper">
-                            <div class="order__form-range-inner">
-                                <span class="order__form-range-text">Sed ut perspiciatis, unde omnis iste natus</span>
-                                <span class="order__form-range-value" id="order_range_value">75%</span>
-                            </div>
-                            <input type="range" name="order_range" min="0" max="100" value="75" id="order_range">
+                        <div class="order__form-top">
+                            <select class="input" name="order_select" id="order_select">
+                                <option value="1">Выберите тип системы</option>
+                                <option value="2">Sed ut perspiciatis</option>
+                                <option value="3">Nemo enim ipsam</option>
+                                <option value="4">Et harum quidem</option>
+                                <option value="5">Temporibus autem</option>
+                                <option value="6">Itaque earum rerum</option>
+                            </select>
+                            <input class="input" type="email" name="order_email" id="order_email" placeholder="Ваш e-mail">
+                            <input class="input" type="text" name="order_name" id="order_name" placeholder="Ваше имя">
                         </div>
-                        <input class="order__form-file" type="file" name="order_file" id="order_file" placeholder="Прикрепить файл">
+                        <div class="order__form-bottom">
+                            <div class="order__form-range-wrapper">
+                                <div class="order__form-range-inner">
+                                    <span class="order__form-range-text">Sed ut perspiciatis, unde omnis iste natus</span>
+                                    <span class="order__form-range-value" id="order_range_value">75%</span>
+                                </div>
+                                <input class="order__form-input-range" type="range" name="order_range" min="0" max="100" value="75" id="order_range">
+                            </div>
+                            <label class="order__form-add-file">
+                                <div class="order__form-add-file-icon">
+                                    <img src="/resources/icons/add_file.svg" alt="add file">
+                                </div>
+                                <span class="order__form-add-file-text">Прикрепить файл</span>
+                                <input class="order__form-file" type="file" name="order_file" id="order_file">
+                            </label>
+                        </div>
                     </div>
                     <button class="order__form-btn btn" type="submit">Отправить</button>
                 </form>
             </div>
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__copyright">
+                    © 2018 «LoremIpsum.net» Все права защищены.
+                </div>
+                <ul class="footer__paylist">
+                    <li class="footer__paylist-item">
+                        <div class="footer__paylist-icon">
+                            <img src="/resources/icons/qiwi.svg" alt="icon">
+                        </div>
+                        <span class="footer__paylist-text">
+                            Qiwi wallet
+                        </span>
+                    </li>
+                    <li class="footer__paylist-item">
+                        <div class="footer__paylist-icon">
+                            <img src="/resources/icons/yandex.svg" alt="icon">
+                        </div>
+                        <span class="footer__paylist-text">
+                            Yandex Money
+                        </span>
+                    </li>
+                    <li class="footer__paylist-item">
+                        <div class="footer__paylist-icon">
+                            <img src="/resources/icons/webmoney.svg" alt="icon">
+                        </div>
+                        <span class="footer__paylist-text">
+                            Web Money
+                        </span>
+                    </li>
+                </ul>
+                <div class="footer__contacts-box">
+                    <ul class="footer__contacts">
+                        <li class="footer__contacts-item">
+                            <div class="footer__contacts-icon">
+                                <img src="/resources/icons/email.svg" alt="icon">
+                            </div>
+                            <a href="#" target="_blank">info@ipsum228.com</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <div class="footer__contacts-icon">
+                                <img src="/resources/icons/vk.svg" alt="icon">
+                            </div>
+                            <a href="#" target="_blank">Мы вконтакте</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
