@@ -98,14 +98,29 @@
                 <form action="#" class="order__form">
                     <div class="order__form-wrapper">
                         <div class="order__form-top">
-                            <select class="input" name="order_select" id="order_select">
+                            <div class="order__form-select-wrapper">
+                                <div class="order__form-select input">
+                                    <span class="order__form-select-text">Выберите тип системы</span>
+                                    <div class="order__form-select-icons">
+                                        <img src="/resources/icons/arrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                                <ul class="order__form-select-options">
+                                    <li class="order__form-select-option">Sed ut perspiciatis</li>
+                                    <li class="order__form-select-option">Nemo enim ipsam</li>
+                                    <li class="order__form-select-option">Et harum quidem</li>
+                                    <li class="order__form-select-option">Temporibus autem</li>
+                                    <li class="order__form-select-option">Itaque earum rerum</li>
+                                </ul>
+                            </div>
+                            <!-- <select class="input" name="order_select" id="order_select">
                                 <option value="1">Выберите тип системы</option>
                                 <option value="2">Sed ut perspiciatis</option>
                                 <option value="3">Nemo enim ipsam</option>
                                 <option value="4">Et harum quidem</option>
                                 <option value="5">Temporibus autem</option>
                                 <option value="6">Itaque earum rerum</option>
-                            </select>
+                            </select> -->
                             <input class="input" type="email" name="order_email" id="order_email" placeholder="Ваш e-mail">
                             <input class="input" type="text" name="order_name" id="order_name" placeholder="Ваше имя">
                         </div>

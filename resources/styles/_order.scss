@@ -118,6 +118,19 @@
         }
     }
 
+    &__form-select-wrapper {
+        position: relative;
+    }
+
+    &__form-select {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+        cursor: pointer;
+        color: #272733;
+    }
+
     &__form-bottom {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
